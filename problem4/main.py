@@ -1,5 +1,6 @@
 def palindrome(input_string):
-    return 'error response'
+    str_n = str(input_string)
+    return str_n == str_n[::-1]
 
 
 if __name__ == '__main__':
